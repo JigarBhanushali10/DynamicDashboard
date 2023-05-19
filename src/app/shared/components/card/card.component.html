@@ -1,0 +1,16 @@
+<div class="d-flex justify-content-between align-items-center">
+  <h3>{{ cardTitle }}</h3>
+  <div class="fs-5">
+    <span *ngIf="showZoomIcon" class="icon-zoom-out mx-1 cursor-pointer"></span>
+    <span
+      *ngIf="showSettingsIcon"
+      class="icon-settings mx-1 cursor-pointer"
+    ></span>
+    <span
+      *ngIf="showHelpIcon"
+      class="icon-help-circle mx-1 cursor-pointer"
+    ></span>
+  </div>
+</div>
+
+<ng-content></ng-content>
