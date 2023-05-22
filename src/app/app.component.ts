@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { ChartService } from './core/services/chart.service';
+import { DARK_THEME } from './core/models/chart.model';
 
 @Component({
   selector: 'app-root',
@@ -8,9 +9,6 @@ import { ChartService } from './core/services/chart.service';
 export class AppComponent {
   title = 'DynamicDashboard';
   constructor(private chartService: ChartService) {
-    this.chartService.changeAppTheme(
-      JSON.parse(localStorage.getItem('appTheme') as string),
-      JSON.parse(localStorage.getItem('isDarkTheme') as string)
-    );
+    this.chartService.changeAppTheme(DARK_THEME, true);
   }
 }
