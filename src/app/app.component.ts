@@ -9,6 +9,11 @@ import { DARK_THEME } from './core/models/chart.model';
 export class AppComponent {
   title = 'DynamicDashboard';
   constructor(private chartService: ChartService) {
-    this.chartService.changeAppTheme(DARK_THEME, true);
+    localStorage.setItem('appTheme', JSON.stringify(DARK_THEME));
+    localStorage.setItem('isDarkTheme', JSON.stringify(true));
+    this.chartService.changeAppTheme(
+      JSON.parse(localStorage.getItem('appTheme') as string),
+      JSON.parse(localStorage.getItem('isDarkTheme') as string)
+    );
   }
 }
