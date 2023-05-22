@@ -192,9 +192,7 @@ export class ChartService {
     localStorage.setItem('appTheme', JSON.stringify(theme));
     localStorage.setItem('isDarkTheme', JSON.stringify(isDarkTheme));
     this.updateChart();
-    if(theme){  
-      console.log(theme);
-      
+    if (theme) {
       Object.entries(theme).forEach((ele) => {
         document.documentElement.style.setProperty(ele[0], ele[1] as string);
       });
