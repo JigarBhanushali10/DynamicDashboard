@@ -1,0 +1,14 @@
+img {
+  vertical-align: unset;
+}
+.avatar {
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid var(--bs-body-bg);
+}
+.over-image {
+  top: 0;
+  right: -18px;
+}
