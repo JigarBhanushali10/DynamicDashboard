@@ -18,7 +18,7 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "docs",
-            "baseHref": "https://jigarbhanushali10.github.io/DynamicDashboard/",
+            // "baseHref": "https://jigarbhanushali10.github.io/DynamicDashboard/",
 
             "index": "src/index.html",
             "main": "src/main.ts",
