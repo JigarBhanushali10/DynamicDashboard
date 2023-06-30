@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1688105369074,
+  "timestamp": 1688119543366,
   "index": "https://jigarbhanushali10.github.io/DynamicDashboard/index.html",
   "assetGroups": [
     {
@@ -11,13 +11,12 @@
         "ignoreVary": true
       },
       "urls": [
-        "https://jigarbhanushali10.github.io/DynamicDashboard/412.a7c95b2626f7bab1.js",
         "https://jigarbhanushali10.github.io/DynamicDashboard/favicon.ico",
         "https://jigarbhanushali10.github.io/DynamicDashboard/index.html",
-        "https://jigarbhanushali10.github.io/DynamicDashboard/main.f54f3db82f80de9e.js",
+        "https://jigarbhanushali10.github.io/DynamicDashboard/main.1bab9fd2dbe33706.js",
         "https://jigarbhanushali10.github.io/DynamicDashboard/manifest.webmanifest",
         "https://jigarbhanushali10.github.io/DynamicDashboard/polyfills.2993fde9011415a3.js",
-        "https://jigarbhanushali10.github.io/DynamicDashboard/runtime.ed526f0f2391062b.js",
+        "https://jigarbhanushali10.github.io/DynamicDashboard/runtime.e1226b5433aa7bd8.js",
         "https://jigarbhanushali10.github.io/DynamicDashboard/styles.f2c51dcb70643536.css"
       ],
       "patterns": []
@@ -76,7 +75,6 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://jigarbhanushali10.github.io/DynamicDashboard/412.a7c95b2626f7bab1.js": "28c1c4a0330b22b0cf266efad776912150366da1",
     "https://jigarbhanushali10.github.io/DynamicDashboard/assets/icons/Read Me.txt": "59f2046b2874381564e1bb8706b011c9705b0bd4",
     "https://jigarbhanushali10.github.io/DynamicDashboard/assets/icons/demo-files/demo.css": "c597c4e4caaa38b1c727cae830f169867398a783",
     "https://jigarbhanushali10.github.io/DynamicDashboard/assets/icons/demo-files/demo.js": "3325132f9aaedbddaeb5eab2b9c0f9ce698b8d93",
@@ -118,11 +116,11 @@
     "https://jigarbhanushali10.github.io/DynamicDashboard/icomoon.1ba21d01c313ff07.svg": "b7159cb17266d2ae36aaecb97fd86d6925e532be",
     "https://jigarbhanushali10.github.io/DynamicDashboard/icomoon.6c7df6ec342fc839.woff": "0c782ff81bac8420adf828e9628e47b80c201891",
     "https://jigarbhanushali10.github.io/DynamicDashboard/icomoon.99f119d173307698.ttf": "78a3b007ff2695c856d4d188de72e3e67f7c4c38",
-    "https://jigarbhanushali10.github.io/DynamicDashboard/index.html": "1f7212521a6b13c04c671edfc7dd900260a99f4e",
-    "https://jigarbhanushali10.github.io/DynamicDashboard/main.f54f3db82f80de9e.js": "e654190aebe638589fc5adc44101aaddcccfe485",
+    "https://jigarbhanushali10.github.io/DynamicDashboard/index.html": "67b649380a3891c9d989a19917fabc2a8bf3e258",
+    "https://jigarbhanushali10.github.io/DynamicDashboard/main.1bab9fd2dbe33706.js": "70d80af0aedca915660d2fe72941c09c75099049",
     "https://jigarbhanushali10.github.io/DynamicDashboard/manifest.webmanifest": "eb5b02c822bb134b5e3ca36aa0536c2b8ab504d4",
     "https://jigarbhanushali10.github.io/DynamicDashboard/polyfills.2993fde9011415a3.js": "89268c3177b045ae700980dfd491bbc48bb566a8",
-    "https://jigarbhanushali10.github.io/DynamicDashboard/runtime.ed526f0f2391062b.js": "4ae247e6b053277a41cc6063d62aece8a6e8c227",
+    "https://jigarbhanushali10.github.io/DynamicDashboard/runtime.e1226b5433aa7bd8.js": "c20982238ccd20130b797f36b24f44767231234b",
     "https://jigarbhanushali10.github.io/DynamicDashboard/styles.f2c51dcb70643536.css": "5dc13310b7853bcf68259dd80ec9f01e4fe124ba"
   },
   "navigationUrls": [
