@@ -13,13 +13,16 @@ export class SidebarComponent implements OnInit {
     localStorage.getItem('isDarkTheme') as string
   );
   currentTheme = DARK_THEME;
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    console.log(this.isDarkTheme);
+  }
 
   /**
    * toggleTheme
    */
   public toggleTheme() {
-    if (this.isDarkTheme) {
+    let text = 'Do you want to change theme?';
+    if (confirm(text) && this.isDarkTheme) {
       this.chartService.changeAppTheme(DARK_THEME, this.isDarkTheme);
     } else {
       this.chartService.changeAppTheme(LIGHT_THEME, this.isDarkTheme);

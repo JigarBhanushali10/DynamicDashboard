@@ -6,10 +6,17 @@ import { MasterComponent } from './components/master/master.component';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { DashboardModule } from '../dashboard/dashboard.module';
 
 @NgModule({
   declarations: [MasterComponent, SidebarComponent, HeaderComponent],
-  imports: [RouterModule, CommonModule, FormsModule, NavbarComponent],
+  imports: [
+    RouterModule,
+    CommonModule,
+    FormsModule,
+    NavbarComponent,
+    DashboardModule,
+  ],
   exports: [MasterComponent],
 })
 export class CoreModule {}

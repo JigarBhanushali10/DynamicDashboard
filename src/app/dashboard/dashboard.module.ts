@@ -28,5 +28,6 @@ import { NavbarComponent } from '../core/components/navbar/navbar.component';
     NavbarComponent,
   ],
   providers: [ChartService],
+  exports: [DashboardComponent],
 })
 export class DashboardModule {}
